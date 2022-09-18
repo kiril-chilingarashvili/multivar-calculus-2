@@ -14655,14 +14655,119 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Definition 2.1 The double integral of a function  over a region  is the volume under the graph  above the region  (the region  is a subset of the -plane).
-(2.44)
-More rigorously,  is defined as</p>
-<p>(2.45)
-where  are obtained by cutting  into  non-overlapping pieces whose areas go to zero as , and each  is a point in .</p>
-<p>Geometrically, the right-hand-side represents an approximation of the volume under  using the pieces . Each term  can be visualized as the volume of a block of height  with base . The visualization below shows one such block for a rectangular .</p>
-<p>Block Under Surface</p>
-<p>Although this is the definition, there are more practical methods to actually compute these volumes.</p>
+<h3 id="*Definition-2.1*">*<strong>Definition 2.1</strong>*<a class="anchor-link" href="#*Definition-2.1*">&#182;</a></h3><h3 id="The-double-integral-of-a-function-$f(x,-y)$-over-a-region-$R$-is-the-volume-under-the-graph-$z=f(x,-y)$-above-the-region-$R$-(the-region-$R$-is-a-subset-of-the-$xy$-plane).">The double integral of a function $f(x, y)$ over a region $R$ is the volume under the graph $z=f(x, y)$ above the region $R$ (the region $R$ is a subset of the $xy$-plane).<a class="anchor-link" href="#The-double-integral-of-a-function-$f(x,-y)$-over-a-region-$R$-is-the-volume-under-the-graph-$z=f(x,-y)$-above-the-region-$R$-(the-region-$R$-is-a-subset-of-the-$xy$-plane).">&#182;</a></h3><h2 id="$$-%5Cint-%5Cint_%7BR%7D-f(x,-y)-dA-$$">$$ \int \int_{R} f(x, y) dA $$<a class="anchor-link" href="#$$-%5Cint-%5Cint_%7BR%7D-f(x,-y)-dA-$$">&#182;</a></h2><h3 id="More-rigorously,-$%5Cdisplaystyle-%5Cint-%5Cint_%7BR%7D-f(x,-y)-dA$-is-defined-as">More rigorously, $\displaystyle \int \int_{R} f(x, y) dA$ is defined as<a class="anchor-link" href="#More-rigorously,-$%5Cdisplaystyle-%5Cint-%5Cint_%7BR%7D-f(x,-y)-dA$-is-defined-as">&#182;</a></h3><h2 id="$$-%5Ctext%7B(Rigorous-Definition)%7D-%5Cquad-%5Cint-%5Cint_%7BR%7D-f(x,-y)-dA-=-%5Clim_%7Bn%5Cto-%5Cinfty%7D-%5Csum_%7Bi=1%7D%5E%7Bn%7D-f(x_i,-y_i)-%5Coperatorname%7BArea%7D(A_i)-$$">$$ \text{(Rigorous Definition)} \quad \int \int_{R} f(x, y) dA = \lim_{n\to \infty} \sum_{i=1}^{n} f(x_i, y_i) \operatorname{Area}(A_i) $$<a class="anchor-link" href="#$$-%5Ctext%7B(Rigorous-Definition)%7D-%5Cquad-%5Cint-%5Cint_%7BR%7D-f(x,-y)-dA-=-%5Clim_%7Bn%5Cto-%5Cinfty%7D-%5Csum_%7Bi=1%7D%5E%7Bn%7D-f(x_i,-y_i)-%5Coperatorname%7BArea%7D(A_i)-$$">&#182;</a></h2><h3 id="where-$A_1,-%5Cldots,A_n$-are-obtained-by-cutting-$R$-into-$n$-non-overlapping-pieces-whose-areas-go-to-zero-as-$n-%5Cto-%5Cinfty$,-and-each-$(x_1,-y_1)$-is-a-point-in-$A_i$.">where $A_1, \ldots,A_n$ are obtained by cutting $R$ into $n$ non-overlapping pieces whose areas go to zero as $n \to \infty$, and each $(x_1, y_1)$ is a point in $A_i$.<a class="anchor-link" href="#where-$A_1,-%5Cldots,A_n$-are-obtained-by-cutting-$R$-into-$n$-non-overlapping-pieces-whose-areas-go-to-zero-as-$n-%5Cto-%5Cinfty$,-and-each-$(x_1,-y_1)$-is-a-point-in-$A_i$.">&#182;</a></h3><h3 id="Geometrically,-the-right-hand-side-represents-an-approximation-of-the-volume-under-$z=f(x,-y)$-using-the-pieces-$A_i$.-Each-term-$f(x_i,-y_i)%5Coperatorname%7BArea%7D(A_i)$-can-be-visualized-as-the-volume-of-a-block-of-height-$f(x_i,-y_i)$-with-base-$A_i$.-The-visualization-below-shows-one-such-block-for-a-rectangular-$A_i$.">Geometrically, the right-hand-side represents an approximation of the volume under $z=f(x, y)$ using the pieces $A_i$. Each term $f(x_i, y_i)\operatorname{Area}(A_i)$ can be visualized as the volume of a block of height $f(x_i, y_i)$ with base $A_i$. The visualization below shows one such block for a rectangular $A_i$.<a class="anchor-link" href="#Geometrically,-the-right-hand-side-represents-an-approximation-of-the-volume-under-$z=f(x,-y)$-using-the-pieces-$A_i$.-Each-term-$f(x_i,-y_i)%5Coperatorname%7BArea%7D(A_i)$-can-be-visualized-as-the-volume-of-a-block-of-height-$f(x_i,-y_i)$-with-base-$A_i$.-The-visualization-below-shows-one-such-block-for-a-rectangular-$A_i$.">&#182;</a></h3><h3 id="*Block-Under-Surface*">*<strong>Block Under Surface</strong>*<a class="anchor-link" href="#*Block-Under-Surface*">&#182;</a></h3>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[4]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%html</span>
+<span class="p">&lt;</span><span class="nt">iframe</span> <span class="na">width</span><span class="o">=</span><span class="s">"900"</span> <span class="na">height</span><span class="o">=</span><span class="s">"650"</span> <span class="na">src</span><span class="o">=</span><span class="s">"https://courses.edx.org/asset-v1:MITx+18.02.2x+2T2022+type@asset+block/threejs_u6_ParallelepipedUnderSurface.html"</span> <span class="na">frameborder</span><span class="o">=</span><span class="s">"0"</span> <span class="na">allow</span><span class="o">=</span><span class="s">"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"</span> <span class="na">allowfullscreen</span><span class="p">&gt;&lt;/</span><span class="nt">iframe</span><span class="p">&gt;</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
+<iframe width="900" height="650" src="https://courses.edx.org/asset-v1:MITx+18.02.2x+2T2022+type@asset+block/threejs_u6_ParallelepipedUnderSurface.html" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Although-this-is-the-definition,-there-are-more-practical-methods-to-actually-compute-these-volumes.">Although this is the definition, there are more practical methods to actually compute these volumes.<a class="anchor-link" href="#Although-this-is-the-definition,-there-are-more-practical-methods-to-actually-compute-these-volumes.">&#182;</a></h3>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Iterated-integral-theory">Iterated integral theory<a class="anchor-link" href="#Iterated-integral-theory">&#182;</a></h2><h3 id="*Volume-By-Slicing*">*<strong>Volume By Slicing</strong>*<a class="anchor-link" href="#*Volume-By-Slicing*">&#182;</a></h3>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[5]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%html</span>
+<span class="p">&lt;</span><span class="nt">iframe</span> <span class="na">width</span><span class="o">=</span><span class="s">"900"</span> <span class="na">height</span><span class="o">=</span><span class="s">"650"</span> <span class="na">src</span><span class="o">=</span><span class="s">"https://courses.edx.org/asset-v1:MITx+18.02.2x+2T2022+type@asset+block/threejs_u6_VolumeSliceSlider.html"</span> <span class="na">frameborder</span><span class="o">=</span><span class="s">"0"</span> <span class="na">allow</span><span class="o">=</span><span class="s">"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"</span> <span class="na">allowfullscreen</span><span class="p">&gt;&lt;/</span><span class="nt">iframe</span><span class="p">&gt;</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
+<iframe width="900" height="650" src="https://courses.edx.org/asset-v1:MITx+18.02.2x+2T2022+type@asset+block/threejs_u6_VolumeSliceSlider.html" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 
 </div>
 </div>

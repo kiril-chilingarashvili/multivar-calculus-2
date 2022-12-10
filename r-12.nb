@@ -1,0 +1,70 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      1770,         62]
+NotebookOptionsPosition[      1297,         45]
+NotebookOutlinePosition[      1693,         61]
+CellTagsIndexPosition[      1650,         58]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"Integrate", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"4", "/", "3"}], "*", 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"2", "*", "y"}], "-", 
+       RowBox[{"y", "^", "2"}]}], ")"}], "^", 
+     RowBox[{"(", 
+      RowBox[{"3", "/", "2"}], ")"}]}]}], ",", 
+   RowBox[{"{", 
+    RowBox[{"y", ",", "0", ",", "2"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.878176453294991*^9, 3.8781764814557047`*^9}},
+ CellLabel->"In[2]:=",ExpressionUUID->"708cdd45-2400-40d5-8cc6-86eae0234688"],
+
+Cell[BoxData[
+ FractionBox["\[Pi]", "2"]], "Output",
+ CellChangeTimes->{3.878176484085986*^9},
+ CellLabel->"Out[2]=",ExpressionUUID->"8bff4a03-46a1-4aa6-b245-d17518e17620"]
+}, Open  ]]
+},
+WindowSize->{808, 911},
+WindowMargins->{{12, Automatic}, {Automatic, 24}},
+FrontEndVersion->"13.0 for Mac OS X x86 (64-bit) (February 4, 2022)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"79f23b9d-9183-4393-8a0e-33370fbf47d9"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 526, 15, 46, "Input",ExpressionUUID->"708cdd45-2400-40d5-8cc6-86eae0234688"],
+Cell[1109, 39, 172, 3, 65, "Output",ExpressionUUID->"8bff4a03-46a1-4aa6-b245-d17518e17620"]
+}, Open  ]]
+}
+]
+*)
+
